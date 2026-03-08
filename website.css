@@ -428,7 +428,10 @@ body {
 }
 
 @media (max-width: 480px) {
-    #main-card { transform: scale(0.5) translate(20px, -15px); }
+    #main-card {
+        transform: scale(0.45) translate(0px, -80px);
+        transform-origin: top left;
+    }
 }
 
 @media (max-width: 768px) {
