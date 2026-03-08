@@ -428,9 +428,14 @@ body {
 }
 
 @media (max-width: 480px) {
-    #main-card {
-        transform: scale(0.45) translate(0px, -80px);
-        transform-origin: top left;
+    #moto {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        transform: none;
+        font-size: 11px;
+        width: 80vw;
+        color: white;
     }
 }
 
