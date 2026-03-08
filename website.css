@@ -428,32 +428,24 @@ body {
 
 /* large desktop */
 @media (max-width: 1920px) {
-    #main-card { 
-        transform: scale(1.1) 
-        translate(20px, -100px); 
+    #main-card { transform: scale(1.1) translate(20px, -100px); 
     }
 }
 
 /* normal desktop */
 @media (max-width: 1440px) {
-    #main-card { 
-        transform: scale(1.0) 
-        translate(20px, -100px); 
+    #main-card { transform: scale(1.0) translate(20px, -100px); 
     }
 }
 
 /* small desktop/laptop */
 @media (max-width: 1280px) {
-    #main-card { 
-        transform: scale(0.9) 
-        translate(20px, -100px); 
+    #main-card { transform: scale(0.9) translate(20px, -100px); 
     }
 }
 
 /* small laptop */
 @media (max-width: 1024px) {
-    #main-card { 
-        transform: scale(0.8) 
-        translate(20px, -100px); 
+    #main-card { transform: scale(0.8) translate(20px, -100px); 
     }
 }
